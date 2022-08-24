@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  plateformemtbuy:
+    image: plateformemtbuy
+    build:
+      context: .
+      dockerfile: ./Dockerfile
